@@ -1,0 +1,35 @@
+#header {width:100%;}
+#header #logo_s {position: relative;display: block;height: 50px; background: #618aaa;}
+#logo_s img{display: block;padding-top:3px;}
+
+#aboutMe {font-family:"NamsanM","sans-serif";font-size:16px;color:#333;line-height:1.5;
+width:100%;height:1200px;background:  url("../images/main/aboutC.png"),url("../images/main/aboutmeBg.jpg");
+background-position: 20% 25%, 0 0;background-repeat: no-repeat;background-size:cover;}
+
+#aboutMe article {position:relative;padding:30px 0;}
+#aboutMe p {position: absolute;display: block;font-size:17px;font-weight: bold;border-radius:10px;box-shadow:0px 5px 5px 0px rgba(0,0,0,0.2);}
+
+#aboutMe .left {background:#fff;left:10px; }
+#aboutMe .right {background:#effcde;right:10px; }
+#aboutMe  #realTime {font-size:13px; }
+
+#aboutMe #name .left{width:349px;height:96px ;top:40px;}
+#aboutMe #name .right{width:680px;height:96px ;top:100px;}
+
+#aboutMe #pic .left{width:349px;height:96px ;top:150px;}
+#aboutMe #pic .right{width:680px;height:96px ;top:210px;}
+
+#aboutMe #birth .left{width:349px;height:96px ;top:260px;}
+#aboutMe #birth .right{width:680px;height:96px ;top:320px;}
+
+#aboutMe #skill .left{width:349px;height:96px ;top:370px;}
+#aboutMe #skill .right{width:680px;height:96px ;top:450px;}
+
+#aboutMe #career .left{width:349px;height:96px ;top:480px;}
+#aboutMe #career .right{width:680px;height:96px ;top:560px;}
+
+#aboutMe #contact .left{width:349px;height:96px ;top:590px;}
+#aboutMe #contact .right{width:680px;height:96px ;top:670px;}
+
+
+
