@@ -1,18 +1,18 @@
-@font-face {
+/*@font-face {
 	font-family:"Open Sans";
 	src:url('../fonts/OpenSans-Regular.eot');
 	src:url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), 
 	url('../fonts/OpenSans-Regular.woff') format('woff');
 }
+*/
 
-
-@font-face {
+/*@font-face {
 	font-family:"Open SansB";
 	src:url('../fonts/OpenSans-Bold.eot');
 	src:url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/OpenSans-Bold.woff') format('woff');
 }
-
+*/
 @font-face {
 	font-family:"NamsanL";
 	src:url('../fonts/SeoulNamsanL.eot');
