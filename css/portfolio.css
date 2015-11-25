@@ -1,0 +1,13 @@
+
+#mainContents {width:100%;padding:30px; }
+#mainContents .portfolio {position:relative;top:283px;text-align: center;height:800px;border:solid 1px #e8e8e8;}
+#mainContents .porCon {display: inline-block;width:24.5%;height:200px;background-color:#b6bac3;}
+#mainContents .porCon1 {height:190px;}
+#mainContents .porCon2 {height:190px;}
+#mainContents .porCon3 {height:190px;}
+#mainContents .porCon4 {height:190px;}
+
+
+.fancybox-title-over-wrap {width: 100%;padding: 0;}
+.fancybox-title-over-wrap > div {padding: 40px;}
+
