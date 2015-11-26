@@ -1,10 +1,18 @@
 #mainHead {position: relative;width:100%;}
 .logoWrap {height:800px;padding:20px 0;}
 .logo {position: relative; width: 370px;height:600px;padding:5px;top:100px;}
-.logo .title {position:absolute;width:178px;height:326px;left:110px;top:240px;background: url("../images/main/title.png") no-repeat 0 50%;}
+.logo .title {position:absolute;width:178px;height:50px;left:110px;bottom:170px;background: url("../images/main/title.png") no-repeat 0 50%;}
+/*.logo .fingerM {position: absolute;left:183px;bottom:-8px;}*/
 .logoWrap p {position:absolute;left:97px;top:430px;font-size:30px;color:#8d8d8d;font-weight:bold;}
-
 .sticker  {position:absolute;width:368px;height:368px;text-align:center;}
+
 .yc .sticker-img {background-image: url(../images/main/bh_logo.png);}
+.sticker .hidden {position: relative;}
+.sticker .hidden p {font-weight: bold;font-size:20px;dis play: none;}
+.sticker .hidden .up {top:10px;left:140px;}
+.sticker .hidden .left {top:180px;left:15px;}
+.sticker .hidden .right {top:180px;right:-144px;}
+.sticker .hidden .down {top:260px;left:140px;}
+
 
 

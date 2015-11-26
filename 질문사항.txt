@@ -7,96 +7,20 @@ a:hover 바톰
 제이쿼리 서브메뉴 인덱스 추가?
 폴더 파일관리
 
-default.css
-bookblock.css
-demo4.css
-modernizr.custom.js
-ajax.
-jquerypp.custom.js
-jquery.bookblock.js
 
 
+궁금한점 (15.11.26 오전)
+웹표준검사 오류 (common.css html4.1?) css는 상관없음 
+제이쿼리 플러그인 오류부분
+마크업확인 
+section ,article 구분이나 사용방법 (h태그가 들어가야함 숨겨두더라도)
+js코드 확인
+사이트링크시 썸네일 이미지나오게하는 방법(모르신댜)
+css3표시 xhtml 굳이 안 해도 됨
 
-			var Page = (function() {
-				
-				var config = {
-						$bookBlock : $( '#bb-bookblock' ),
-						$navNext : $( '#bb-nav-next' ),
-						$navPrev : $( '#bb-nav-prev' ),
-						$navFirst : $( '#bb-nav-first' ),
-						$navLast : $( '#bb-nav-last' )
-					},
-					init = function() {
-						config.$bookBlock.bookblock( {
-							speed : 1000,
-							shadowSides : 0.8,
-							shadowFlip : 0.4
-						} );
-						initEvents();
-					},
-					initEvents = function() {
-						
-						var $slides = config.$bookBlock.children();
 
-						// add navigation events
-						config.$navNext.on( 'click touchstart', function() {
-							config.$bookBlock.bookblock( 'next' );
-							return false;
-						} );
+*스티커를 까뒤집었을때(기본 디스플레이는 안보이게 해야겠지)
 
-						config.$navPrev.on( 'click touchstart', function() {
-							config.$bookBlock.bookblock( 'prev' );
-							return false;
-						} );
+왼쪽방향으로  up,right,down은 숨긴다.
 
-						config.$navFirst.on( 'click touchstart', function() {
-							config.$bookBlock.bookblock( 'first' );
-							return false;
-						} );
-
-						config.$navLast.on( 'click touchstart', function() {
-							config.$bookBlock.bookblock( 'last' );
-							return false;
-						} );
-						
-						// add swipe events
-						$slides.on( {
-							'swipeleft' : function( event ) {
-								config.$bookBlock.bookblock( 'next' );
-								return false;
-							},
-							'swiperight' : function( event ) {
-								config.$bookBlock.bookblock( 'prev' );
-								return false;
-							}
-						} );
-
-						// add keyboard events
-						$( document ).keydown( function(e) {
-							var keyCode = e.keyCode || e.which,
-								arrow = {
-									left : 37,
-									up : 38,
-									right : 39,
-									down : 40
-								};
-
-							switch (keyCode) {
-								case arrow.left:
-									config.$bookBlock.bookblock( 'prev' );
-									break;
-								case arrow.right:
-									config.$bookBlock.bookblock( 'next' );
-									break;
-							}
-						} );
-					};
-
-					return { init : init };
-
-			})();
-
-			<script>
-				Page.init();
-		</script>
-		
+.sticker .hidden .left  

@@ -44,11 +44,8 @@
 	        					});
 					      },
 						  helpers : {					
-						        overlay : {
-						            css : {
-						               
-						          	 // 'background': 'rgba(207,231,250,0.95)'
-								           }
+						        overlay : {	         
+						          	 css : {}
 						        },
 						     title: {
 					              	type: 'over'
@@ -65,35 +62,39 @@
 		<header id="pf_header">
 			<div class="pfh auto clearFix">
 				<div class="logoPf ">
-					<img class="logo_s " src="images/layout/logo_s.png" alt="쪼꼬미로고">
-					<span class="pf">Portfolio</span>
+					<img class="logo_s " src="images/layout/logo_s.png" alt="logo_s">
+					<a href="javascript:window.location.reload();"><span class="pf">Portfolio</span></a>
 				</div>
 				<ul class="util">
-					<li><a href="index.html"><img src="images/layout/home.png" alt="" ></a></li>
-					<li><a href="#" onClick="history.back(); return false;"><img src="images/layout/ar_36.png" alt="뒤로가기" ></a></li>
+				<li><a href="index.html"><img src="images/layout/home.png" alt="home" title="home"></a></li>
+				<li><a href="aboutMe.html"><img src="images/layout/aboutMe.png" alt="aboutMe" title="aboutMe"></a></li>
+				<li><a href="portfolio.html"><img src="images/layout/portfolio.png" alt="portfolio" title="portfolio"></a></li>
+				<li><a href="contact.html"><img src="images/layout/contact.png" alt="contact" title="contact" ></a></li>
+				<!-- <li><a href="#" onClick="history.back(); return false;"><img src="images/layout/ar_36.png" alt="뒤로가기" ></a></li> -->
 				</ul>
+				<a class="back" href="#" onClick="history.back(); return false;"><img  src="images/layout/back_62.png" alt="뒤로가기" title="back"></a>
 				<p class="portfolioT auto">Portfolio</p>
 			</div>
 	</header>
 <!-- header end -->
-		<section id="mainContents">
+		<div id="mainContents">
 			<div class="portfolio auto clearFix">
-				<article class="porCon auto">
+				<div class="porCon auto">
 					<a class="por" title ="아날로그" rel="group" href="images/main/porCon1_b.jpg"><img src="images/main/porCon1_s.jpg" alt="" /></a>
-				</article> 
-				<article class="porCon auto">
-					<a class="por" title ="수채화느낌" rel="group" href="images/main/porCon2_b.jpg"><img src="images/main/porCon2_s.jpg" alt="" /></a>	
-				</article> 
-				<article class="porCon auto">
+				</div> 
+				<div class="porCon auto">
+					<a class="por" title ="수채화느낌" rel="group" href="images/main/porCon2_b.jpg"><img src="images/main/porCon2_s.jpg" alt="" /></a>
+				</div> 
+				<div class="porCon auto">
 					<a class="por" title ="빛효과" rel="group" href="images/main/porCon3_b.jpg"><img src="images/main/porCon3_s.jpg" alt="" /></a>
 					
-				</article> 
-				<article class="porCon auto">
+				</div> 
+				<div class="porCon auto">
 					<a class="por" title ="수묵화" rel="group" href="images/main/porCon4-3_b.jpg"><img src="images/main/porCon4-3_s.jpg" alt="" /></a>
 					
-				</article> 
+				</div> 
 			</div>
-		</section>
+		</div>
 		<footer id="ac_footer">
 		<div class="acl auto">
 			<address>			
